@@ -1,5 +1,7 @@
-JavaScript Client-Side BIP0032 generator
+JavaScript Client-Side Trezor Deterministic Wallet Recovery Tool
 
-http://github.com/sarchar/brainwallet.github.com/tree/bip32
+Enables you to regenerate all the private/public keys used by your Trezor should you lose your device.
 
-- Web Worker hashes 50,000 rounds to protect passphrases
+You can could run this completely offline on a live Linux distro to verify that you have correctly backed up your mnemonic/passphrase.
+
+Originally forked from bip32/bip32.github.io
