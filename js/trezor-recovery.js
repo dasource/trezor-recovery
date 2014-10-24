@@ -127,7 +127,7 @@
             $("#bip32_source_mnemonic").attr('readonly', false);
             $("#bip32_source_key").attr('readonly', true);
             $("#calculate_bip39").removeAttr('disabled');
-            $("#gen_from_msg").html("");
+            $("#gen_from_msg").html("Enter your mnemonic and passphrase (if any) then click calculate");
         } else {
             setErrorState($("#bip32_source_mnemonic"), false);
             $("#bip32_source_passphrase").attr('readonly', true);
